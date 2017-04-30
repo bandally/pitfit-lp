@@ -138,6 +138,8 @@ ul li {
 }
 #header .logo {
 	float: left;
+	border-radius: 16px;
+  overflow: hidden;
 }
 #header.fixed {
 	background-color: #201f22;
@@ -315,7 +317,7 @@ ul li {
 	Banner
 -------------------------------------------------------------------------------*/
 .banner {
-	background-color: #3b3be8;
+	background-color: rgb(129, 212, 203);
 	min-height: 750px;
 }
 .banner-text {
@@ -339,7 +341,8 @@ ul li {
 	margin-bottom: 7%;
 }
 .banner-img {
-	bottom: -186px;
+	/*bottom: -186px;*/
+	bottom: -110px;
 	position: relative;
 }
 .banner-btn a {
@@ -406,7 +409,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .features2 {
-	padding-bottom:0;
+	/*padding-bottom:0;*/
 }
 .features2-content {
 	margin-top:15%;
@@ -429,7 +432,7 @@ ul li {
 }
 .features3 {
 	background-color:#f2f2f2;
-	padding-bottom:0;
+	/*padding-bottom:0;*/
 }
 .features3 img {
 	bottom: -100px;
@@ -448,7 +451,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 	.overlay {
-	background-color: rgba(60, 57, 162, 0.9);
+	background-color: rgba(129, 212, 203, 0.9);
 	height: 100%;
 	left: 0;
 	position: absolute;
